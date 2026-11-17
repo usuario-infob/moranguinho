@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #fff1e6;
+    --title: #b83250;
+    --subtitle: #e94b65;
+    --paragraph: #713847;
+    --hr: #e94b65;
+    --border: #e9a3b1;
+    --generic: #9bdd8e;
+}
+
+html {   
+    background-color: var(--background);
+    scrollbar-width: thin;
+    scrollbar-color: var(--hr) var(--border);
+}
+
+body {
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 900;
+    color: var(--title);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header p {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: var(--subtitle);
+    margin: 0;
+    margin-bottom: 1em;
+    text-indent: 0;
+    border: none;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: .2em;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: var(--subtitle);
+    text-transform: uppercase;
+}
+
+p {
+    color: var(--paragraph);
+    text-indent: 1.5em;
+    border-left: 2px solid var(--generic);
+    padding: .5em 0 .5em 8px;
+    margin-top: 0;
+}
+
+hr {
+    background-color: var(--hr);
+    height: 4px;
+    margin: .8em 0 .8em 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+figure {
+    margin: 2em 1.5em 1em 2em;
+}
+
+img {
+    height: 22.5em;
+    width: 15em;
+}
+
+figcaption {
+    margin-top: 14px;
+    color: var(--subtitle);
+    font-weight: 700;
+    text-align: center;
+}
+
+div {
+    height: 30em;
+    width: 20em;
+    background-color: #b83250;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 14px double var(--hr);
+}
+
+section {
+    padding-right: 14em;
+}
+
+footer {
+    background-color: var(--title);
+    height: 2.6em;
+}
